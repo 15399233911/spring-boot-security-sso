@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  context-path: /uaa
+spring:
+  thymeleaf:
+    cache: true
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    suffix: .html
+    excluded-view-names:
+    mode: HTML5
+    prefix: classpath:/templates/
